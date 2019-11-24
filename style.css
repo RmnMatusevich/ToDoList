@@ -38,7 +38,7 @@ main {
       width: 20%;
       background-color: #b6a4ff;
       border: none;
-      font-size: 36px;
+      font-size: 20px;
       font-family: "Arvo", serif;
       outline: none; }
       main .input #add:hover {
@@ -68,5 +68,16 @@ main {
   width: 80%;
   display: flex;
   justify-content: space-between; }
+
+@media (max-width: 600px) {
+  header {
+    height: 100px; }
+    header .tittle {
+      padding-top: 25px;
+      font-size: 56px;
+      width: 323px; }
+
+  main .input input[type="text"] {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
